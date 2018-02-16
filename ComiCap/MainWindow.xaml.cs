@@ -18,6 +18,9 @@ namespace ComiCap {
     /// MainWindow.xaml の相互作用ロジック
     /// </summary>
     public partial class MainWindow : Window {
+
+        public BitmapImage m_bitmap = null;    // 読み込んだ画像用
+
         public MainWindow() {
             InitializeComponent();
         }

@@ -29,6 +29,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem_Open = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_Exit = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem_Capture = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             // 
             // notifyIcon1
@@ -42,21 +43,28 @@
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem_Open,
-            this.toolStripMenuItem_Exit});
+            this.toolStripMenuItem_Exit,
+            this.toolStripMenuItem_Capture});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(104, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(116, 70);
             // 
             // toolStripMenuItem_Open
             // 
             this.toolStripMenuItem_Open.Name = "toolStripMenuItem_Open";
-            this.toolStripMenuItem_Open.Size = new System.Drawing.Size(103, 22);
+            this.toolStripMenuItem_Open.Size = new System.Drawing.Size(115, 22);
             this.toolStripMenuItem_Open.Text = "Open";
             // 
             // toolStripMenuItem_Exit
             // 
             this.toolStripMenuItem_Exit.Name = "toolStripMenuItem_Exit";
-            this.toolStripMenuItem_Exit.Size = new System.Drawing.Size(103, 22);
+            this.toolStripMenuItem_Exit.Size = new System.Drawing.Size(115, 22);
             this.toolStripMenuItem_Exit.Text = "Exit";
+            // 
+            // toolStripMenuItem_Capture
+            // 
+            this.toolStripMenuItem_Capture.Name = "toolStripMenuItem_Capture";
+            this.toolStripMenuItem_Capture.Size = new System.Drawing.Size(115, 22);
+            this.toolStripMenuItem_Capture.Text = "Capture";
             this.contextMenuStrip1.ResumeLayout(false);
 
         }
@@ -67,5 +75,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_Open;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_Exit;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_Capture;
     }
 }
